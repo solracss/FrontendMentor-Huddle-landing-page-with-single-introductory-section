@@ -39,4 +39,33 @@ button {
     font-family: inherit;
     border: none;
     cursor: pointer;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    min-height: 100vh;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    background-color: #684bb1;
+}
+
+.bg-picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -20;
+}
+
+@media (min-width: 600px) {
+    .bg-picture {
+        height: 100%;
+    }
 }/*# sourceMappingURL=main.css.map */
