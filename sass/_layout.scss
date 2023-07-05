@@ -3,7 +3,8 @@
 @use "./typography" as *;
 
 body {
-	padding: 40px;
+	padding: 38px 35px 40px;
+	padding-top: 38px;
 	min-height: 100vh;
 	font-size: rem(16px);
 	font-family: $ff-body;
@@ -23,11 +24,86 @@ body {
 }
 
 @media (min-width: 600px) {
-	.bg-picture {
+	.bg-mobile-image {
 		height: 100%;
 	}
 }
 
 .company-logo {
 	width: 120px;
+}
+
+.content-container {
+	text-align: center;
+}
+
+.mockups-img {
+	margin-top: 55px;
+}
+
+.main-heading {
+	margin-top: 60px;
+	font-family: $ff-heading;
+	font-size: rem(24px);
+	font-weight: $fw-bold;
+	line-height: rem(36px);
+}
+
+.description {
+	margin-top: 16px;
+	font-size: rem(16px);
+	font-weight: $fw-normal;
+	line-height: rem(24px);
+}
+
+.btn {
+	min-height: 30px;
+	min-width: 20ch;
+	font-size: rem(12px);
+	color: $violet;
+	font-family: $ff-heading;
+	background: $white;
+	border-radius: 20px;
+	box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.27);
+
+	&:focus {
+		outline-style: solid;
+		outline-color: transparent;
+		box-shadow: 0 0 0 4px scale-color($violet, $lightness: -70%);
+	}
+
+	&-register {
+		margin-top: 24px;
+		padding: 11px 76px;
+		transition: all 0.3s;
+		&:hover {
+			background: $light-pink;
+			color: $white;
+		}
+	}
+}
+
+.social-links {
+	margin-top: 64px;
+	display: flex;
+	justify-content: center;
+	gap: rem(11px);
+	font-size: 13px;
+}
+
+.circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 28px;
+	height: 28px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	color: #fff;
+	transition: all 0.3s;
+}
+
+a.circle:hover {
+	color: $pink;
+	border: 1px solid $pink;
 }
