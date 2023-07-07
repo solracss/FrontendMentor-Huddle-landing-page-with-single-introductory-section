@@ -49,24 +49,11 @@ body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     color: #fff;
+    background: url("../img/bg-mobile.svg") no-repeat;
+    background-size: contain;
     background-color: #684bb1;
 }
 
-.bg-mobile-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: -20;
-}
-
-@media (min-width: 660px) {
-    .bg-mobile-image {
-        height: 100%;
-    }
-}
 .company-logo {
     width: 120px;
 }
@@ -147,6 +134,9 @@ a.circle:hover {
 @media (min-width: 600px) {
     body {
         padding: 64px 80px 40px;
+        background: url("../img/bg-desktop.svg") no-repeat;
+        background-size: contain;
+        background-color: #684bb1;
     }
     .company-logo {
         width: 200px;
