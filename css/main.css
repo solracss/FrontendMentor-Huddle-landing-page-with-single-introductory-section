@@ -62,7 +62,7 @@ body {
     z-index: -20;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 660px) {
     .bg-mobile-image {
         height: 100%;
     }
@@ -142,4 +142,42 @@ body {
 a.circle:hover {
     color: #ff52c1;
     border: 1px solid #ff52c1;
+}
+
+@media (min-width: 600px) {
+    body {
+        padding: 64px 80px 40px;
+    }
+    .company-logo {
+        width: 200px;
+    }
+    .main-heading {
+        font-size: 2.5rem;
+    }
+    .description {
+        margin-top: 24px;
+        font-size: 1.125rem;
+    }
+    .btn {
+        font-size: 1.125rem;
+        line-height: 1.6875rem;
+        border-radius: 28px;
+        box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+    }
+    .btn-register {
+        padding: 13px 64px 16px;
+    }
+    .circle {
+        width: 40px;
+        height: 40px;
+    }
+    .social-links {
+        font-size: 17px;
+    }
+}
+@media (min-width: 660px) {
+    .social-links {
+        justify-content: end;
+        gap: 0.9375rem;
+    }
 }/*# sourceMappingURL=main.css.map */
