@@ -62,7 +62,7 @@ body {
     text-align: center;
 }
 
-.mockups-img {
+.two-columns {
     margin-top: 55px;
 }
 
@@ -83,7 +83,7 @@ body {
 
 .btn {
     min-height: 30px;
-    min-width: 20ch;
+    min-width: 15ch;
     font-size: 0.75rem;
     color: #684bb1;
     font-family: "Poppins", sans-serif;
@@ -133,9 +133,8 @@ a.circle:hover {
 
 @media (min-width: 600px) {
     body {
-        padding: 64px 80px 40px;
+        padding: 59px 80px 40px;
         background: url("../img/bg-desktop.svg") no-repeat;
-        background-size: contain;
         background-color: #684bb1;
     }
     .company-logo {
@@ -168,6 +167,20 @@ a.circle:hover {
 @media (min-width: 660px) {
     .social-links {
         justify-content: end;
+        margin-top: 27px;
         gap: 0.9375rem;
+    }
+    .two-columns {
+        display: flex;
+        margin-top: 85px;
+        gap: 3.75rem;
+    }
+    .first-col {
+        width: 54.5%;
+        width: 696px;
+    }
+    .second-col {
+        width: 40%;
+        text-align: left;
     }
 }/*# sourceMappingURL=main.css.map */

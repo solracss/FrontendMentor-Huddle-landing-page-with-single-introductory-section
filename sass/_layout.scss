@@ -23,7 +23,7 @@ body {
 	text-align: center;
 }
 
-.mockups-img {
+.two-columns {
 	margin-top: 55px;
 }
 
@@ -44,7 +44,7 @@ body {
 
 .btn {
 	min-height: 30px;
-	min-width: 20ch;
+	min-width: 15ch;
 	font-size: rem(12px);
 	color: $violet;
 	font-family: $ff-heading;
@@ -96,9 +96,10 @@ a.circle:hover {
 
 @media (min-width: 600px) {
 	body {
-		padding: 64px 80px 40px;
+		// padding: 64px 80px 40px;
+		padding: 59px 80px 40px;
 		background: url("../img/bg-desktop.svg") no-repeat;
-		background-size: contain;
+		// background-size: contain;
 		background-color: $violet;
 	}
 
@@ -108,7 +109,6 @@ a.circle:hover {
 
 	.main-heading {
 		font-size: rem(40px);
-		// line-height: rem(60px);
 	}
 
 	.description {
@@ -139,6 +139,23 @@ a.circle:hover {
 @media (min-width: 660px) {
 	.social-links {
 		justify-content: end;
+		margin-top: 27px;
 		gap: rem(15px);
+	}
+
+	.two-columns {
+		display: flex;
+		margin-top: 85px;
+		gap: rem(60px);
+	}
+
+	.first-col {
+		width: 54.5%;
+		width: 696px;
+	}
+
+	.second-col {
+		width: 40%;
+		text-align: left;
 	}
 }
