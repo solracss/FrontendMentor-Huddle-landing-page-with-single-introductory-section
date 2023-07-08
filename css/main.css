@@ -54,6 +54,11 @@ body {
     background-color: #684bb1;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
 .company-logo {
     width: 120px;
 }
@@ -134,8 +139,9 @@ a.circle:hover {
 @media (min-width: 600px) {
     body {
         padding: 59px 80px 40px;
-        background: url("../img/bg-desktop.svg") no-repeat;
-        background-color: #684bb1;
+    }
+    .container {
+        max-width: 576px;
     }
     .company-logo {
         width: 200px;
