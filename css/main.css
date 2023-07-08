@@ -164,7 +164,16 @@ a.circle:hover {
         font-size: 17px;
     }
 }
-@media (min-width: 660px) {
+@media (min-width: 1200px) {
+    body {
+        background: url("../img/bg-desktop.svg") no-repeat;
+        background-position: bottom right;
+        background-size: cover;
+        background-color: #684bb1;
+    }
+    .container {
+        max-width: 1300px;
+    }
     .social-links {
         justify-content: end;
         margin-top: 27px;
