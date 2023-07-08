@@ -26,8 +26,8 @@ Your users should be able to:
 
 <summary>Click to open</summary>
 
-![Desktop]()
-![Mobile]()
+![Desktop](https://i.imgur.com/3fcsBQL.png)
+![Mobile](https://i.imgur.com/7Vbo7e7.png)
 
 </details>
 
@@ -48,4 +48,15 @@ Your users should be able to:
 
 ### What I learned
 
-1.
+1. Working with background image for setting svg as bacground.
+   Properties used:
+
+```css
+background: url("../img/bg-mobile.svg") no-repeat;
+background-size: contain;
+background-position: bottom right;
+```
+
+2. Setting `max-width` for whole content on page to improve RWD.
+
+3. Working with flexbox on two column layout.
